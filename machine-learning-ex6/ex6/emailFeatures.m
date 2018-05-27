@@ -48,10 +48,8 @@ x = zeros(n, 1);
 %
 %
 
-vocabList = getVocabList();
-
-for word = word_indices
-  x(word) = 1;
+for i = word_indices
+  x(i) = 1;
 end
 
 
